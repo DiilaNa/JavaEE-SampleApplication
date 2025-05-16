@@ -14,5 +14,6 @@ public class CustomerServlet extends HttpServlet {
         System.out.println(req.getHeader("name"));
         System.out.println(req.getHeader("age"));
         System.out.println(req.getHeader("address"));
+
     }
 }
